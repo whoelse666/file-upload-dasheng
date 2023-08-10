@@ -3,7 +3,7 @@
     <input type="text" />
     <i class="el-icon-loading" style="color: #f56c6c"></i>
 
-    <!-- <form method="post" action="http://localhost:7001/upload" enctype="multipart/form-data"> -->
+    <!-- <form method="post" action="http://localhost:7002/upload" enctype="multipart/form-data"> -->
     <div ref="drag" id="drag">
       <input type="file" name="file" @change="handleFileChange" />
       <!-- <img :src="preview" alt=""> -->
